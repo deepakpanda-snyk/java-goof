@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Java Goof :: TodoList Goof                                         [pom]
+[INFO] Java Goof :: Todolist Goof :: Todolist Core                        [jar]
+[INFO] Java Goof :: Todolist Goof :: Todolist Web Common                  [jar]
+[INFO] Java Goof :: Todolist Goof :: Todolist Web Struts                  [war]
+[INFO] Java Goof :: Log4Shell Goof :: Log4Shell Server                    [jar]
+[INFO] Java Goof :: Log4Shell Goof                                        [pom]
+[INFO] Java Goof :: Log4Shell Goof :: Log4Shell Client                    [jar]
+[INFO] Java Goof                                                          [pom]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.9/maven-dependency-plugin-2.9.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.9: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.9 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache.maven.plugins:maven-dependency-plugin:pom:2.9 (absent): Could not transfer artifact org.apache.maven.plugins:maven-dependency-plugin:pom:2.9 from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:3.2.0: Plugin org.apache.maven.plugins:maven-clean-plugin:3.2.0 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache.maven.plugins:maven-clean-plugin:pom:3.2.0 (absent): Could not transfer artifact org.apache.maven.plugins:maven-clean-plugin:pom:3.2.0 from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:3.1.4: Plugin org.apache.maven.plugins:maven-install-plugin:3.1.4 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache.maven.plugins:maven-install-plugin:pom:3.1.4 (absent): Could not transfer artifact org.apache.maven.plugins:maven-install-plugin:pom:3.1.4 from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:3.1.4: Plugin org.apache.maven.plugins:maven-deploy-plugin:3.1.4 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache.maven.plugins:maven-deploy-plugin:pom:3.1.4 (absent): Could not transfer artifact org.apache.maven.plugins:maven-deploy-plugin:pom:3.1.4 from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.12.1: Plugin org.apache.maven.plugins:maven-site-plugin:3.12.1 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache.maven.plugins:maven-site-plugin:pom:3.12.1 (absent): Could not transfer artifact org.apache.maven.plugins:maven-site-plugin:pom:3.12.1 from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.tomcat.maven/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] org.apache.tomcat.maven/maven-metadata.xml failed to transfer from https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.tomcat.maven/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] org.apache.maven.plugins/maven-metadata.xml failed to transfer from https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] org.codehaus.mojo/maven-metadata.xml failed to transfer from https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Java Goof 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] Java Goof :: TodoList Goof ......................... SKIPPED
+[INFO] Java Goof :: Todolist Goof :: Todolist Core ........ SKIPPED
+[INFO] Java Goof :: Todolist Goof :: Todolist Web Common .. SKIPPED
+[INFO] Java Goof :: Todolist Goof :: Todolist Web Struts .. SKIPPED
+[INFO] Java Goof :: Log4Shell Goof :: Log4Shell Server .... SKIPPED
+[INFO] Java Goof :: Log4Shell Goof ........................ SKIPPED
+[INFO] Java Goof :: Log4Shell Goof :: Log4Shell Client .... SKIPPED
+[INFO] Java Goof .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.148 s
+[INFO] Finished at: 2026-06-30T13:03:20+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'dependency' in the current project and in the plugin groups [org.apache.tomcat.maven, org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/deepakpanda/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

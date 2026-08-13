@@ -1,0 +1,300 @@
+2026-06-30T06:34:34Z main - ⚠️ WARNING: Potentially Sensitive Information ⚠️
+These logs may contain sensitive data, including secrets or passwords. Snyk applies automated safeguards to redact commonly recognized secrets; however, full coverage cannot be guaranteed. We strongly recommend that you carefully review the logs before sharing to ensure no confidential or proprietary information is included.
+2026-06-30T06:34:34Z main - Using log level: debug
+2026-06-30T06:34:35Z main - > request [0x51d247b197c0]: GET https://api.snyk.io/rest/self?version=2024-04-22
+2026-06-30T06:34:35Z main - > request [0x51d247b197c0]: header: map[Authorization:[Bearer ***] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[104fb45c-9f38-4701-8d1f-421b7dbc6de9] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:35Z main - < response [0x51d247b19a40]: 200 OK
+2026-06-30T06:34:35Z main - < response [0x51d247b19a40]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801275.17dd81ab] Content-Length:[491] Content-Type:[application/vnd.api+json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:35 GMT] Deprecation:[2024-05-31] Server:[envoy] Snyk-Request-Id:[104fb45c-9f38-4701-8d1f-421b7dbc6de9] Snyk-Version-Lifecycle-Stage:[ga] Snyk-Version-Requested:[2024-04-22] Snyk-Version-Served:[2024-04-22] Strict-Transport-Security:[max-age=31536000; preload] Sunset:[2024-10-19] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[13] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:35Z main - Version:               1.1305.2 
+2026-06-30T06:34:35Z main - Platform:              darwin arm64
+2026-06-30T06:34:35Z main - API:                   https://api.snyk.io
+2026-06-30T06:34:35Z main - Region:                snyk-us-01
+2026-06-30T06:34:35Z main - Cache:                 /Users/***/Library/Caches/snyk/snyk-cli
+2026-06-30T06:34:35Z main - Organization:          8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:35Z main - Insecure HTTPS:        false
+2026-06-30T06:34:35Z main - Analytics:             enabled
+2026-06-30T06:34:35Z main - Authorization:         86875496***67bcf57d  (type=oauth; expiry=2026-06-30 06:35:26.620998 +0000 UTC)
+2026-06-30T06:34:35Z main - Interaction:           urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf
+2026-06-30T06:34:35Z main - Features:              
+2026-06-30T06:34:35Z main -   preview:             disabled
+2026-06-30T06:34:35Z main -   fips:                Not available
+2026-06-30T06:34:35Z main -   request attempts:    1
+2026-06-30T06:34:35Z main -   config cache:        enabled (ttl=no expiration)
+2026-06-30T06:34:35Z main - Checks:                
+2026-06-30T06:34:35Z main -   Configuration:       all good
+2026-06-30T06:34:36Z main - > request [0x51d24841d2c0]: GET https://api.snyk.io/rest/orgs/8ff7acdd-bd57-43d2-af0f-6af21d1d446f?version=2024-03-12
+2026-06-30T06:34:36Z main - > request [0x51d24841d2c0]: header: map[Authorization:[Bearer ***] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[3d58fb45-e73c-4f81-884a-0e57a63608be] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:36Z main - < response [0x51d24841d400]: 200 OK
+2026-06-30T06:34:36Z main - < response [0x51d24841d400]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801276.17dd9e2d] Content-Type:[application/vnd.api+json] Date:[Tue, 30 Jun 2026 06:34:36 GMT] Deprecation:[2024-10-15] Server:[envoy] Snyk-Request-Id:[3d58fb45-e73c-4f81-884a-0e57a63608be] Snyk-Version-Lifecycle-Stage:[ga] Snyk-Version-Requested:[2024-03-12] Snyk-Version-Served:[2023-05-29] Strict-Transport-Security:[max-age=31536000; preload] Sunset:[2024-08-26] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[1] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:36Z main - Running test
+2026-06-30T06:34:36Z test:1 - Workflow Start
+2026-06-30T06:34:37Z main - > request [0x51d2485e6640]: GET https://api.snyk.io/v1/cli-config/feature-flags/useExperimentalRiskScore?org=8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:37Z main - > request [0x51d2485e6640]: header: map[Authorization:[Bearer ***] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[230e4187-91cf-4e68-954c-48d690ca1c18] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:37Z main - < response [0x51d2485e6780]: 403 Forbidden
+2026-06-30T06:34:37Z main - < response [0x51d2485e6780]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801276.17ddb7dd] Content-Length:[126] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-OepwXk0NB//gCuYbHDVN7g==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:37 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[230e4187-91cf-4e68-954c-48d690ca1c18] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:37Z main - < response [0x51d2485e6780]: body: {"ok":false,"userMessage":"Org panda-enterprise-unlimited-default doesn't have 'use-experimental-risk-score' feature enabled"}
+2026-06-30T06:34:38Z main - > request [0x51d24851d400]: GET https://api.snyk.io/v1/cli-config/feature-flags/useExperimentalRiskScoreInCLI?org=8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:38Z main - > request [0x51d24851d400]: header: map[Authorization:[Bearer ***] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[080c1853-89b6-4d47-aed6-ce9a829061cc] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:38Z main - < response [0x51d24851d540]: 403 Forbidden
+2026-06-30T06:34:38Z main - < response [0x51d24851d540]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801277.17ddd900] Content-Length:[133] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-GyWuo4YRpZ5T7qmvjk9RYA==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:38 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[080c1853-89b6-4d47-aed6-ce9a829061cc] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:38Z main - < response [0x51d24851d540]: body: {"ok":false,"userMessage":"Org panda-enterprise-unlimited-default doesn't have 'use-experimental-risk-score-in-cli' feature enabled"}
+2026-06-30T06:34:39Z main - > request [0x51d247cb4000]: GET https://api.snyk.io/v1/cli-config/feature-flags/useTestShimForOSCliTest?org=8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:39Z main - > request [0x51d247cb4000]: header: map[Authorization:[Bearer ***] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[3b78099d-52f6-4b73-a60c-8f510bdc7cc1] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:39Z main - < response [0x51d247cb4140]: 403 Forbidden
+2026-06-30T06:34:39Z main - < response [0x51d247cb4140]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801278.17ddf5fa] Content-Length:[128] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-EUa1CKlT6tdUD/80pVquSQ==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:39 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[3b78099d-52f6-4b73-a60c-8f510bdc7cc1] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[198] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:39Z main - < response [0x51d247cb4140]: body: {"ok":false,"userMessage":"Org panda-enterprise-unlimited-default doesn't have 'use-test-shim-for-os-cli-test' feature enabled"}
+2026-06-30T06:34:39Z main - > request [0x51d247eb0280]: POST https://api.snyk.io/hidden/orgs/8ff7acdd-bd57-43d2-af0f-6af21d1d446f/feature_flags/evaluation?version=2024-10-15
+2026-06-30T06:34:39Z main - > request [0x51d247eb0280]: header: map[Authorization:[Bearer ***] Content-Type:[application/vnd.api+json] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[94a3619d-345d-43fd-897d-d7ef5271ff6e] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:39Z main - < response [0x51d247eb03c0]: 200 OK
+2026-06-30T06:34:39Z main - < response [0x51d247eb03c0]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801279.17de1024] Content-Type:[application/vnd.api+json] Date:[Tue, 30 Jun 2026 06:34:39 GMT] Server:[envoy] Snyk-Request-Id:[94a3619d-345d-43fd-897d-d7ef5271ff6e] Snyk-Version-Lifecycle-Stage:[beta] Snyk-Version-Requested:[2024-10-15] Snyk-Version-Served:[2024-10-15~beta] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[1] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:40Z main - > request [0x51d247e17040]: POST https://api.snyk.io/hidden/orgs/8ff7acdd-bd57-43d2-af0f-6af21d1d446f/feature_flags/evaluation?version=2024-10-15
+2026-06-30T06:34:40Z main - > request [0x51d247e17040]: header: map[Authorization:[Bearer ***] Content-Type:[application/vnd.api+json] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[c2a4119c-f139-4c7b-b0dd-47013da5112f] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:40Z main - < response [0x51d247e172c0]: 200 OK
+2026-06-30T06:34:40Z main - < response [0x51d247e172c0]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801280.17de2b0f] Content-Type:[application/vnd.api+json] Date:[Tue, 30 Jun 2026 06:34:40 GMT] Server:[envoy] Snyk-Request-Id:[c2a4119c-f139-4c7b-b0dd-47013da5112f] Snyk-Version-Lifecycle-Stage:[beta] Snyk-Version-Requested:[2024-10-15] Snyk-Version-Served:[2024-10-15~beta] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[1] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:41Z main - > request [0x51d247ab5180]: POST https://api.snyk.io/hidden/orgs/8ff7acdd-bd57-43d2-af0f-6af21d1d446f/feature_flags/evaluation?version=2024-10-15
+2026-06-30T06:34:41Z main - > request [0x51d247ab5180]: header: map[Authorization:[Bearer ***] Content-Type:[application/vnd.api+json] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[38b2fdf9-d5eb-405a-926d-9ac79b89909c] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:41Z main - < response [0x51d247ab52c0]: 200 OK
+2026-06-30T06:34:41Z main - < response [0x51d247ab52c0]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801281.17de4c6b] Content-Type:[application/vnd.api+json] Date:[Tue, 30 Jun 2026 06:34:41 GMT] Server:[envoy] Snyk-Request-Id:[38b2fdf9-d5eb-405a-926d-9ac79b89909c] Snyk-Version-Lifecycle-Stage:[beta] Snyk-Version-Requested:[2024-10-15] Snyk-Version-Served:[2024-10-15~beta] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[1] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:41Z test:1 - uv.lock not found, skipping uv feature flag check
+2026-06-30T06:34:41Z test:1 - Using legacy flow: true. Legacy CLI Env var: false. SBOM Reachability Test: false.Risk Score Test: false. Experimental uv Support: false. Test Shim FF: false. Dfly Rollout: false. Unified Test API FF: false.
+2026-06-30T06:34:41Z test:1 - legacy scan: RAW_CMD_ARGS passed to legacy CLI legacy_args=["test","-d"]
+2026-06-30T06:34:41Z legacycli:2 - Workflow Start
+2026-06-30T06:34:41Z legacycli:2 - Use StdIO:true
+2026-06-30T06:34:41Z legacycli:2 - Working directory:
+2026-06-30T06:34:41Z legacycli:2 - Init start
+2026-06-30T06:34:41Z legacycli:2 - Init-Lock acquired: true (***/Library/Caches/snyk/snyk-cli/1.1305.2.lock)
+2026-06-30T06:34:41Z legacycli:2 - Validating sha256 of ***/Library/Caches/snyk/snyk-cli/1.1305.2/snyk-macos-arm64
+2026-06-30T06:34:41Z legacycli:2 - expected:  444a12a1e4c45d2a66a4629166100a4418efbf8b83cc191b73957be58a1b6957
+2026-06-30T06:34:41Z legacycli:2 - actual:    444a12a1e4c45d2a66a4629166100a4418efbf8b83cc191b73957be58a1b6957
+2026-06-30T06:34:41Z legacycli:2 - Extraction not required
+2026-06-30T06:34:41Z legacycli:2 - Init end
+2026-06-30T06:34:41Z legacycli:2 - Creating new Certificate Authority
+2026-06-30T06:34:41Z legacycli:2 - Using additional CAs from file: ***/zscaler-ca-bundle.pem
+2026-06-30T06:34:41Z legacycli:2 - Temporary CertificateLocation: ***/Library/Caches/snyk/snyk-cli/1.1305.2/tmp/pid7509/snyk-cli-cert-2514709089.crt
+2026-06-30T06:34:41Z legacycli:2 - starting proxy
+2026-06-30T06:34:41Z legacycli:2 - Wrapper proxy is listening on port: 57910
+2026-06-30T06:34:41Z legacycli:2 - Launching:
+2026-06-30T06:34:41Z legacycli:2 - ***/Library/Caches/snyk/snyk-cli/1.1305.2/snyk-macos-arm64
+2026-06-30T06:34:41Z legacycli:2 - With Arguments:
+2026-06-30T06:34:41Z legacycli:2 - test -d
+2026-06-30T06:34:41Z legacycli:2 - With Environment:
+2026-06-30T06:34:41Z legacycli:2 - NODE_EXTRA_CA_CERTS = ***/Library/Caches/snyk/snyk-cli/1.1305.2/tmp/pid7509/snyk-cli-cert-2514709089.crt
+2026-06-30T06:34:41Z legacycli:2 - HTTPS_PROXY = http://***@127.0.0.1:57910
+2026-06-30T06:34:41Z legacycli:2 - HTTP_PROXY = http://***@127.0.0.1:57910
+2026-06-30T06:34:41Z legacycli:2 - NO_PROXY = localhost,127.0.0.1,::1
+2026-06-30T06:34:41Z legacycli:2 - SNYK_SYSTEM_HTTPS_PROXY =
+2026-06-30T06:34:41Z legacycli:2 - SNYK_SYSTEM_HTTP_PROXY =
+2026-06-30T06:34:41Z legacycli:2 - SNYK_SYSTEM_NO_PROXY =
+2026-06-30T06:34:41Z legacycli:2 - SNYK_API = https://api.snyk.io
+2026-06-30T06:34:41Z legacycli:2 - SNYK_INTERNAL_CLI_EXECUTABLE_PATH = /opt/homebrew/Cellar/snyk/1.1305.2/bin/snyk
+2026-06-30T06:34:42Z legacycli:2 - snyk using proxy: http://***@127.0.0.1:57910
+2026-06-30T06:34:42Z legacycli:2 - snyk Using a custom Snyk API 'SNYK_API' environment variable 'https://api.snyk.io'
+2026-06-30T06:34:42Z legacycli:2 - [001] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:42Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:42Z legacycli:2 - [001] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:42Z legacycli:2 - [001] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:42Z legacycli:2 - [001] INFO: signing for api.snyk.io
+2026-06-30T06:34:42Z legacycli:2 - [002] INFO: req api.snyk.io:443
+2026-06-30T06:34:43Z main - > request [0x51d247ab4780]: GET https://api.snyk.io:443/v1/cli-config/feature-flags/includeGoStandardLibraryDeps?org=
+2026-06-30T06:34:43Z main - > request [0x51d247ab4780]: header: map[Accept:[application/json] Authorization:[Bearer ***] Connection:[close] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[b733178a-c896-4bd7-b16e-d688d6af4b97] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:43Z main - < response [0x51d247ab4a00]: 200 OK
+2026-06-30T06:34:43Z main - < response [0x51d247ab4a00]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801282.17de7858] Content-Length:[11] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-oLvIJxTCntvgXaurpdGgUQ==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:43 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[b733178a-c896-4bd7-b16e-d688d6af4b97] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:43Z legacycli:2 - [001] INFO: Exiting on EOF
+2026-06-30T06:34:43Z legacycli:2 - snyk using proxy: http://***@127.0.0.1:57910
+2026-06-30T06:34:43Z legacycli:2 - [003] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:43Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:43Z legacycli:2 - [003] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:43Z legacycli:2 - [003] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:43Z legacycli:2 - [003] INFO: signing for api.snyk.io
+2026-06-30T06:34:43Z legacycli:2 - [004] INFO: req api.snyk.io:443
+2026-06-30T06:34:44Z main - > request [0x51d24862f540]: GET https://api.snyk.io:443/v1/cli-config/feature-flags/disableGoPackageUrlsInCli?org=
+2026-06-30T06:34:44Z main - > request [0x51d24862f540]: header: map[Accept:[application/json] Authorization:[Bearer ***] Connection:[close] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[f3a29f06-5fc5-407b-a187-df5c465291bd] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:44Z main - < response [0x51d24862f680]: 403 Forbidden
+2026-06-30T06:34:44Z main - < response [0x51d24862f680]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801283.17de9804] Content-Length:[129] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-3cI5w5kR+F7gysRJg/gqsw==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:44 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[f3a29f06-5fc5-407b-a187-df5c465291bd] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:44Z main - < response [0x51d24862f680]: body: {"ok":false,"userMessage":"Org panda-enterprise-unlimited-default doesn't have 'disable-go-package-urls-in-cli' feature enabled"}
+2026-06-30T06:34:44Z legacycli:2 - [003] INFO: Exiting on EOF
+2026-06-30T06:34:44Z legacycli:2 - snyk using proxy: http://***@127.0.0.1:57910
+2026-06-30T06:34:44Z legacycli:2 - [005] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:44Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [005] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [005] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:44Z legacycli:2 - [005] INFO: signing for api.snyk.io
+2026-06-30T06:34:44Z legacycli:2 - [006] INFO: req api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - legacyFeatureFlagInterceptor handling request for /v1/cli-config/feature-flags/show-maven-build-scope
+2026-06-30T06:34:44Z legacycli:2 - legacyFeatureFlagInterceptor response for internal_snyk_show_maven_scope_enabled is false
+2026-06-30T06:34:44Z legacycli:2 - [005] INFO: Exiting on EOF
+2026-06-30T06:34:44Z legacycli:2 - snyk using proxy: http://***@127.0.0.1:57910
+2026-06-30T06:34:44Z legacycli:2 - [007] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:44Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [007] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [007] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:44Z legacycli:2 - [007] INFO: signing for api.snyk.io
+2026-06-30T06:34:44Z legacycli:2 - [008] INFO: req api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - legacyFeatureFlagInterceptor handling request for /v1/cli-config/feature-flags/show-npm-scope
+2026-06-30T06:34:44Z legacycli:2 - legacyFeatureFlagInterceptor response for internal_snyk_show_npm_scope_enabled is false
+2026-06-30T06:34:44Z legacycli:2 - [007] INFO: Exiting on EOF
+2026-06-30T06:34:44Z legacycli:2 - snyk using proxy: http://***@127.0.0.1:57910
+2026-06-30T06:34:44Z legacycli:2 - [009] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:44Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [009] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:44Z legacycli:2 - [009] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:44Z legacycli:2 - [009] INFO: signing for api.snyk.io
+2026-06-30T06:34:44Z legacycli:2 - [010] INFO: req api.snyk.io:443
+2026-06-30T06:34:45Z main - > request [0x51d24cdea000]: GET https://api.snyk.io:443/v1/cli-config/feature-flags/cliDotnetRuntimeResolution?org=8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:45Z main - > request [0x51d24cdea000]: header: map[Accept:[application/json] Authorization:[Bearer ***] Connection:[close] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[4b406e24-c17e-4397-8ea7-32c255fac8d9] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:45Z main - < response [0x51d24cdea140]: 403 Forbidden
+2026-06-30T06:34:45Z main - < response [0x51d24cdea140]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801284.17deb6f1] Content-Length:[128] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-RgVwT8w0U4Zuhd549tTv6w==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:45 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[4b406e24-c17e-4397-8ea7-32c255fac8d9] Strict-Transport-Security:[max-age=31536000; preload] Vary:[Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[198] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:45Z main - < response [0x51d24cdea140]: body: {"ok":false,"userMessage":"Org panda-enterprise-unlimited-default doesn't have 'cli-dotnet-runtime-resolution' feature enabled"}
+2026-06-30T06:34:45Z legacycli:2 - [009] INFO: Exiting on EOF
+2026-06-30T06:34:45Z legacycli:2 - snyk-mvn-plugin Child process errored with: spawn mvn ENOENT
+2026-06-30T06:34:45Z legacycli:2 - snyk-mvn-plugin Child process failed with exit code: -2
+snyk-mvn-plugin ----------------
+2026-06-30T06:34:45Z legacycli:2 - snyk-mvn-plugin STDERR:
+snyk-mvn-plugin 
+snyk-mvn-plugin ----------------
+snyk-mvn-plugin STDOUT:
+snyk-mvn-plugin 
+snyk-mvn-plugin ----------------
+2026-06-30T06:34:45Z legacycli:2 - snyk:run-test Error running test {
+  error: Error: Child process failed with exit code: -2.
+      at ChildProcess.<anonymous> (/snapshot/project/dist/cli/webpack:/snyk/node_modules/snyk-mvn-plugin/dist/sub-process.js:65:1)
+      at ChildProcess.emit (node:events:519:28)
+      at ChildProcess.emit (node:domain:489:12)
+      at maybeClose (node:internal/child_process:1101:16)
+      at Socket.<anonymous> (node:internal/child_process:456:11)
+      at Socket.emit (node:events:519:28)
+      at Socket.emit (node:domain:489:12)
+      at Pipe.<anonymous> (node:net:346:12)
+}
+2026-06-30T06:34:45Z legacycli:2 - snyk-test Failed to test 1 projects, errors:
+2026-06-30T06:34:45Z legacycli:2 - snyk-test error: FailedToRunTestError: Child process failed with exit code: -2.
+    at runTest (/snapshot/project/dist/cli/webpack:/snyk/src/lib/snyk-test/run-test.ts:448:11)
+    at test (/snapshot/project/dist/cli/webpack:/snyk/src/cli/commands/test/index.ts:181:13)
+    at runCommand (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:59:25)
+    at main (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:362:11)
+    at /snapshot/project/dist/cli/webpack:/snyk/src/cli/index.ts:13:3
+    at callHandlingUnexpectedErrors (/snapshot/project/dist/cli/webpack:/snyk/src/lib/unexpected-error.ts:43:5)
+2026-06-30T06:34:45Z legacycli:2 - snyk Exit code: 2
+2026-06-30T06:34:45Z legacycli:2 - snyk analytics {
+  "args": [],
+  "command": "bad-command",
+  "metadata": {
+    "upgradable-snyk-protect-paths": 0,
+    "local": true,
+    "error-message": "\nTesting ***/Documents/Snyk/MyTest/java-goof...\n\nChild process failed with exit code: -2.",
+    "error": "Error: \nTesting ***/Documents/Snyk/MyTest/java-goof...\n\nChild process failed with exit code: -2.\n    at test (/snapshot/project/dist/cli/webpack:/snyk/src/cli/commands/test/index.ts:330:19)\n    at runCommand (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:59:25)\n    at main (/snapshot/project/dist/cli/webpack:/snyk/src/cli/main.ts:362:11)\n    at /snapshot/project/dist/cli/webpack:/snyk/src/cli/index.ts:13:3\n    at callHandlingUnexpectedErrors (/snapshot/project/dist/cli/webpack:/snyk/src/lib/unexpected-error.ts:43:5)",
+    "error-code": 0,
+    "command": "test"
+  },
+  "os": "macOS",
+  "osPlatform": "darwin",
+  "osRelease": "25.5.0",
+  "osArch": "arm64",
+  "version": "1.1305.2",
+  "nodeVersion": "v22.22.2",
+  "standalone": true,
+  "integrationName": "CLI_V1_PLUGIN",
+  "integrationVersion": "1.1305.2",
+  "integrationEnvironment": "",
+  "integrationEnvironmentVersion": "",
+  "id": "d0a3baa206fa709d6443a695ed229dceffa6af7a",
+  "ci": false,
+  "durationMs": 3644,
+  "metrics": {
+    "network_time": {
+      "type": "timer",
+      "values": [
+        923,
+        971,
+        57,
+        20,
+        887
+      ],
+      "total": 2858
+    },
+    "cpu_time": {
+      "type": "synthetic",
+      "values": [
+        786
+      ],
+      "total": 786
+    }
+  }
+}
+2026-06-30T06:34:45Z legacycli:2 - snyk sending request to: https://***@127.0.0.1:57910
+2026-06-30T06:34:45Z legacycli:2 - [011] INFO: Running 1 CONNECT handlers
+2026-06-30T06:34:45Z legacycli:2 - HandleConnect - basic *** result: &{0 <nil> 0x100ed7cc0}api.snyk.io:443
+2026-06-30T06:34:45Z legacycli:2 - [011] INFO: on 0th handler: &{2 <nil> 0x100ed7980} api.snyk.io:443
+2026-06-30T06:34:45Z legacycli:2 - [011] INFO: Assuming CONNECT is TLS, mitm proxying it
+2026-06-30T06:34:45Z legacycli:2 - [011] INFO: signing for api.snyk.io
+2026-06-30T06:34:45Z legacycli:2 - [012] INFO: req api.snyk.io:443
+2026-06-30T06:34:46Z main - > request [0x51d24ce57680]: POST https://api.snyk.io:443/v1/analytics/cli
+2026-06-30T06:34:46Z main - > request [0x51d24ce57680]: header: map[Accept:[application/json] Authorization:[Bearer ***] Connection:[close] Content-Encoding:[gzip] Content-Length:[627] Content-Type:[application/json; charset=utf-8] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[4a2b9049-989b-47b4-9dfe-a21858681877] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:46Z main - < response [0x51d24ce577c0]: 200 OK
+2026-06-30T06:34:46Z main - < response [0x51d24ce577c0]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801286.17dee4c2] Content-Length:[11] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-QOrXU92wvpjhizgv7Fa7zw==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:46 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[4a2b9049-989b-47b4-9dfe-a21858681877] Strict-Transport-Security:[max-age=31536000; preload] Vary:[X-HTTP-Method-Override, Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:46Z legacycli:2 - [011] INFO: Exiting on EOF
+2026-06-30T06:34:46Z legacycli:2 - Workflow End
+2026-06-30T06:34:46Z test:1 - Workflow End
+2026-06-30T06:34:46Z main - Failed to execute the command! exit status 2
+Unspecified Error
+2026-06-30T06:34:46Z main - Deriving Exit Code 2 (cause: exit status 2
+Unspecified Error)
+
+ ERROR   Unspecified Error (SNYK-CLI-0000)
+                                                                                        
+           Child process failed with exit code: -2.                                     
+
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000 
+                                                                         
+ID:      urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf 
+2026-06-30T06:34:46Z main - Sending Analytics
+2026-06-30T06:34:47Z main - > request [0x51d24cbd0c80]: POST https://api.snyk.io/v1/analytics/cli?org=8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:47Z main - > request [0x51d24cbd0c80]: header: map[Authorization:[Bearer ***] Content-Type:[application/json; charset=utf-8] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[4f95bbcc-db7e-477d-acc3-720870ea591d] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:47Z main - < response [0x51d24cbd0dc0]: 200 OK
+2026-06-30T06:34:47Z main - < response [0x51d24cbd0dc0]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801286.17df01dc] Content-Length:[11] Content-Security-Policy:[base-uri https://app.snyk.io; script-src 'self' 'nonce-qoYytrZJ45B+uXqM/hsu0A==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'report-sample'; img-src https: data:; object-src 'none'; frame-ancestors https://app.snyk.io https://learn.snyk.io https://login.snyk.io https://security.snyk.io; report-to csp-report-group; report-uri https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02;] Content-Type:[application/json; charset=utf-8] Date:[Tue, 30 Jun 2026 06:34:47 GMT] Report-To:[{"group":"csp-report-group","max_age":1800,"endpoints":[{"url":"https://web-reports.snyk.io/csp?version=f4e2cb48bbb05b411c8e09e54cd1a7caab3a2a02"}],"include_subdomains":true}] Snyk-Request-Id:[4f95bbcc-db7e-477d-acc3-720870ea591d] Strict-Transport-Security:[max-age=31536000; preload] Vary:[X-HTTP-Method-Override, Accept-Encoding] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[200, 200;w=1;name="crd|generic_key^api-gateway.api-v1|generic_key^per_second|principal_id|ratelimit_bucket^high", 2000;w=60;name="crd|generic_key^api-gateway.api-v1|generic_key^per_minute|principal_id|ratelimit_bucket^high", 60000;w=3600;name="crd|generic_key^api-gateway.api-v1|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[199] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:47Z main - Analytics successfully send
+2026-06-30T06:34:47Z main - Sending Instrumentation
+2026-06-30T06:34:47Z analytics.report:3 - Workflow Start
+2026-06-30T06:34:47Z analytics.report:3 - adding command line input
+2026-06-30T06:34:47Z analytics.report:3 - [0] Processing element
+2026-06-30T06:34:47Z analytics.report:3 - [0] Schema Version: 2
+2026-06-30T06:34:47Z analytics.report:3 - [0] Data: {"data":{"attributes":{"interaction":{"categories":["oss","test","debug"],"errors":[{"code":"0","id":"SNYK-CLI-0000"}],"extension":{"exitcode":2,"legacycli::exitcode":2,"legacycli::metadata__error-code":0,"legacycli::metadata__local":true,"legacycli::metadata__upgradable-snyk-protect-paths":0,"legacycli::static-nodejs-binary":false,"network-request-attempts":1,"test::show-maven-build-scope":false,"test::show-npm-scope":false},"id":"urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf","results":[],"stage":"dev","status":"failure","target":{"id":"pkg:git/github.com/***-snyk/java-goof@3b8ecd1dee4b86bed43c73a7c6c52e29caa74370?branch=main"},"timestamp_ms":1782801275526,"type":""},"runtime":{"application":{"name":"snyk-cli","version":"1.1305.2"},"performance":{"duration_ms":12218},"platform":{"arch":"arm64","os":"darwin"}}},"type":""}}
+2026-06-30T06:34:48Z main - > request [0x51d24cf797c0]: POST https://api.snyk.io/hidden/orgs/8ff7acdd-bd57-43d2-af0f-6af21d1d446f/analytics?version=2024-03-07~experimental
+2026-06-30T06:34:48Z main - > request [0x51d24cf797c0]: header: map[Authorization:[Bearer ***] Content-Type:[application/json] Session-Token:[Bearer ***] Snyk-Interaction-Id:[urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf] Snyk-Request-Id:[fcc29bce-97be-4734-8fa3-ad3e12da0c22] User-Agent:[snyk-cli/1.1305.2 (darwin;arm64)] X-Snyk-Cli-Version:[1.1305.2]]
+2026-06-30T06:34:48Z main - < response [0x51d24cf79900]: 201 Created
+2026-06-30T06:34:48Z main - < response [0x51d24cf79900]: header: map[Akamai-Cache-Status:[Miss from child] Akamai-Grn:[0.0ebc5668.1782801287.17df1baf] Content-Length:[2] Content-Type:[application/json] Date:[Tue, 30 Jun 2026 06:34:48 GMT] Deprecation:[2024-10-15] Server:[envoy] Snyk-Request-Id:[fcc29bce-97be-4734-8fa3-ad3e12da0c22] Snyk-Version-Lifecycle-Stage:[experimental] Snyk-Version-Requested:[2024-03-07~experimental] Snyk-Version-Served:[2024-03-07~experimental] Strict-Transport-Security:[max-age=31536000; preload] Sunset:[2024-04-06] X-Content-Type-Options:[nosniff] X-Envoy-Upstream-Service-Time:[1] X-Frame-Options:[SAMEORIGIN] X-Ratelimit-Limit:[160, 160;w=1;name="crd|generic_key^api-gateway.api-rest|generic_key^per_second|principal_id|ratelimit_bucket^high", 1620;w=60;name="crd|generic_key^api-gateway.api-rest|generic_key^per_minute|principal_id|ratelimit_bucket^high", 97200;w=3600;name="crd|generic_key^api-gateway.api-rest|generic_key^per_hour|principal_id|ratelimit_bucket^high"] X-Ratelimit-Remaining:[159] X-Ratelimit-Reset:[1]]
+2026-06-30T06:34:48Z analytics.report:3 - Workflow End
+2026-06-30T06:34:48Z main - Instrumentation successfully sent
+2026-06-30T06:34:48Z internal.cleanup:4 - Workflow Start
+2026-06-30T06:34:48Z internal.cleanup:4 - Deleted temporary certificate file: ***/Library/Caches/snyk/snyk-cli/1.1305.2/tmp/pid7509/snyk-cli-cert-2514709089.crt
+2026-06-30T06:34:48Z internal.cleanup:4 - Deleted temporary directory: ***/Library/Caches/snyk/snyk-cli/1.1305.2/tmp/pid7509
+2026-06-30T06:34:48Z internal.cleanup:4 - Workflow End
+2026-06-30T06:34:48Z main -
+2026-06-30T06:34:48Z main - ------------ Summary ------------
+2026-06-30T06:34:48Z main - Version:               1.1305.2 
+2026-06-30T06:34:48Z main - Platform:              darwin arm64
+2026-06-30T06:34:48Z main - API:                   https://api.snyk.io
+2026-06-30T06:34:48Z main - Region:                snyk-us-01
+2026-06-30T06:34:48Z main - Cache:                 ***/Library/Caches/snyk/snyk-cli
+2026-06-30T06:34:48Z main - Organization:          8ff7acdd-bd57-43d2-af0f-6af21d1d446f
+2026-06-30T06:34:48Z main - Insecure HTTPS:        false
+2026-06-30T06:34:48Z main - Analytics:             enabled
+2026-06-30T06:34:48Z main - Authorization:         86875496***67bcf57d  (type=oauth; expiry=2026-06-30 06:35:26.620998 +0000 UTC)
+2026-06-30T06:34:48Z main - Interaction:           urn:snyk:interaction:42dc47e6-65c4-4fa1-b9ba-e1fb4d34d5bf
+2026-06-30T06:34:48Z main - Features:              
+2026-06-30T06:34:48Z main -   preview:             disabled
+2026-06-30T06:34:48Z main -   fips:                Not available
+2026-06-30T06:34:48Z main -   request attempts:    1
+2026-06-30T06:34:48Z main -   config cache:        enabled (ttl=no expiration)
+2026-06-30T06:34:48Z main - Checks:                
+2026-06-30T06:34:48Z main -   Configuration:       all good
+2026-06-30T06:34:48Z main -
+2026-06-30T06:34:48Z main - ------------ Errors ------------
+2026-06-30T06:34:48Z main - ERROR:                 Unspecified Error (SNYK-CLI-0000)
+2026-06-30T06:34:48Z main -   Links:               
+2026-06-30T06:34:48Z main -                        https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000
+2026-06-30T06:34:48Z main -
+2026-06-30T06:34:48Z main -   Instance 1:
+2026-06-30T06:34:48Z main -                        Child process failed with exit code: -2.
+2026-06-30T06:34:48Z main -
+2026-06-30T06:34:48Z main - Exit Code:             2
